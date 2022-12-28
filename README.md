@@ -1,6 +1,6 @@
 # Curso-JavaScript
 
-Material do [curso de Python](https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm) lecionado pelo professor Gustavo Guanabara do Curso em Video.
+Material do [curso de JavaScript](https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm) lecionado pelo professor Gustavo Guanabara do Curso em Video.
 
 ### Ferramentas utilizadas:
 * Node.js

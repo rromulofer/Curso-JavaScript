@@ -20,12 +20,15 @@
 </head>
 
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    <div id="area">
         CLIQUE AQUI
     </div>
 
     <script>
         var area = window.document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
 
         function clicar() {
             area.innerText = 'Clicou!'

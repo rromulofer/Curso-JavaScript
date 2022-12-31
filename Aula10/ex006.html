@@ -9,8 +9,8 @@
     <style>
         div#area {
             font: normal 15pt Arial Black;
-            background: rgb(98, 255, 221);
-            color: rgb(0, 0, 0);
+            background: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             width: 200px;
             height: 200px;
             line-height: 200px;
@@ -29,14 +29,17 @@
 
         function clicar() {
             area.innerText = 'Clicou!'
+            area.style.background = 'orange'
         }
 
         function entrar() {
             area.innerText = 'Entrou!'
+            area.style.background = 'green'
         }
 
         function sair() {
             area.innerText = 'Saiu!'
+            area.style.background = 'red'
         }
     </script>
 </body>

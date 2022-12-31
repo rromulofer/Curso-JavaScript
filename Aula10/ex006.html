@@ -8,9 +8,9 @@
     <title>Eventos DOM</title>
     <style>
         div#area {
-            font: normal 20pt Arial;
-            background: rgb(70, 70, 70);
-            color: white;
+            font: normal 15pt Arial Black;
+            background: rgb(98, 255, 221);
+            color: rgb(0, 0, 0);
             width: 200px;
             height: 200px;
             line-height: 200px;
@@ -20,9 +20,25 @@
 </head>
 
 <body>
-    <div id = "area">
-        Interaja...
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        CLIQUE AQUI
     </div>
+
+    <script>
+        var area = window.document.getElementById('area')
+
+        function clicar() {
+            area.innerText = 'Clicou!'
+        }
+
+        function entrar() {
+            area.innerText = 'Entrou!'
+        }
+
+        function sair() {
+            area.innerText = 'Saiu!'
+        }
+    </script>
 </body>
 
 </html>

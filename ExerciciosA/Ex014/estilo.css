@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -17,8 +17,13 @@ section {
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
+div {
+    text-align: center;
+    padding: 5px;
+}
+
 footer {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-style: italic;
 }

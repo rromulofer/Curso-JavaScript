@@ -1,3 +1,5 @@
+
+
 function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
@@ -7,7 +9,7 @@ function carregar() {
     //utilizando o var hora =  para realizar testes
     //para automatizar basta tirar o comentário do data.getHours()
     //e comentar a linha abaixo
-    var hora = 22
+    var hora = 8
 
     if (hora >= 0 && hora < 12) {
         // Manha

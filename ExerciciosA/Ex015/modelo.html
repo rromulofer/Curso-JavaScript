@@ -16,16 +16,14 @@
     <section>
         <div>
             <p>Ano de Nascimento:
-                <input type="number" name="txtano" id="txtano">
+                <input type="number" name="txtano" id="txtano" min="0">
             </p>
-
             <p>Sexo:
-                <input type="radio" name="radsexo" id="mas">
+                <input type="radio" name="radsex" id="mas" checked>
                 <label for="mas">Masculino</label>
-                <input type="radio" name="redsexo" id="fem">
+                <input type="radio" name="redsex" id="fem">
                 <label for="fem">Feminino</label>
             </p>
-
             <p>
                 <input type="button" value="Verificar" onclick="verificar()">
             </p>
